@@ -19,8 +19,12 @@ body {
         background: linear-gradient(45deg, #ffc400, #e04700);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        letter-spacing: .75px;
+        span {
+          line-height: 260px;
+        }
       }
-      span {
+      span.about {
         font-size: 36px;
         color: #707070;
         line-height: 1;
